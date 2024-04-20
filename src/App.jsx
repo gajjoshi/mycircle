@@ -3,6 +3,8 @@ import Intro from './Intro'
 import About from './About'
 import Footer from './Footer'
 import Tape from './Tape'
+import Header from './Header'
+
 
 import { Link, animateScroll as scroll } from 'react-scroll';
 
@@ -34,6 +36,9 @@ function App() {
   return (
     <>
      <div style={{backgroundColor:'black'}}>
+     <div id='introlink'>
+        <Header/>
+      </div>
      
       
       <div id='introlink'>

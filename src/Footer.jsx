@@ -1,5 +1,5 @@
 import React from 'react';
-import D247Logo from './assets/D247a.png'; // Import the image
+import D247Logo from './assets/MyC.png'; // Import the image
 
 export default function Footer() {
   return (
