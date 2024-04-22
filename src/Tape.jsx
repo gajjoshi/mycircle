@@ -28,18 +28,20 @@ export default function Tape() {
   return (
     <div style={backgroundImageStyle}>
       <footer className="font-bebas flex flex-col justify-center items-center text-white h-60">
-        <a href="https://wa.link/mycircle247" className="button" style={buttonBackgroundStyle}> {/* Apply button background style */}
-          <h1 className="text-3xl lg:text-5xl mb-2 text-animation">CLICK NOW FOR WHATSAPP</h1>
-        </a>
+      <div className="mt-20"> {/* Add margin top to push content downward */}
+  <a href="https://wa.link/mycircle247" className="button" style={buttonBackgroundStyle}> {/* Apply button background style */}
+    <h1 className="text-3xl lg:text-5xl text-animation">CLICK NOW FOR WHATSAPP</h1>
+  </a>
+</div>
         <a href="https://t.me/mycircle247_book" className="button" style={buttonBackgroundStyle2}> {/* Apply button background style */}
-          <h1 className="text-3xl lg:text-5xl mb-2 text-animation">CLICK NOW FOR TELEGRAM</h1>
+          <h1 className="text-3xl lg:text-5xl  text-animation">CLICK NOW FOR TELEGRAM</h1>
         </a>
         <div className="join-with" style={{color:"black"}}>
-          <h1 className="text-3xl lg:text-5xl mb-2">JOIN WITH</h1>
+          <h1 className="text-3xl lg:text-5xl ">JOIN WITH</h1>
         </div>
         <div>
           <a href="https://wa.link/mycircle247"> 
-            <img style={{ height: "20vh" }} src={photo} alt="Description of the image" />
+            <img style={{ height: "15vh" }} src={photo} alt="Description of the image" />
           </a>
         </div>
       </footer>

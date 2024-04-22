@@ -57,7 +57,7 @@ export default function Header() {
 
   return (
     <>
-      <div style={{ position: "sticky", zIndex: "5 ", top: 0, backgroundColor: "", paddingTop: "0px" }}>
+      <div style={{ position: "sticky", zIndex: "5 ", top: 0, backgroundColor: "", paddingTop: "10px" }}>
         <header class="w-full h-20 flex  absolute " style={nav}>
           <nav class="w-4/5 flex  items-center font-bebas" >
             <img src={bgImage} alt="Spark Reach Media" style={{ height: '200px', marginLeft: '200px' }} />

@@ -44,7 +44,7 @@ function App() {
       <div id='introlink'>
         <Intro/>
       </div>
-      <div style={{paddingTop:"20px"}}> 
+      <div> 
       
       <Tape/>
       </div>
