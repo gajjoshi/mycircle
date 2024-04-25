@@ -7,7 +7,7 @@ import './intro.css';
 export default function Intro() {
   return (
     <div className='video-cont'>
-      {/* <div className="overlay"></div> */}
+      <div className="overlay"></div>
       <div className="bg-image">
 
       </div>
