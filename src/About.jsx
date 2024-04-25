@@ -1,10 +1,11 @@
 import React from "react";
 
-import photo from './assets/mycircle.png';
+import photo from './assets/Mycircle.png';
 import buton from './assets/buton.png'; // Importing the button image
 
 export default function About() {
   return (
+    // sdgdg
     <div>
       <section id="about" style={{ alignContent: "center" }}>
         <div className="border-2 border-black m-10" style={{ alignContent: "center" }}>
